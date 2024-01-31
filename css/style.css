@@ -1,0 +1,222 @@
+*{
+    box-sizing:border-box ;
+    
+}
+
+body{
+    margin:0;
+    padding: 3;
+}
+
+p{
+    font-size: 24px; 
+    font-family: 'cinzel';
+}
+
+h1{
+    font-size: 24px; 
+    font-family: 'cinzel';
+    color:azure;
+
+    
+
+}
+h3{
+    text-align: center;
+    font-size: 5px; 
+    font-family: 'forum';
+    color: black;
+}
+
+h4{
+    font-size: 1.4rem;
+    background-color: aliceblue;
+}
+
+h2{
+    text-align: center;
+    font-size: 5px; 
+    font-family: 'cinzel';
+    background-color:navajowhite
+}
+
+h5{
+    font-size: 24px; 
+    font-family: 'cinzel';
+    color:black;
+text-align: center;
+}
+
+.texto-h5{
+    background-color: antiquewhite;
+}
+
+h6{
+    background-color: aliceblue;
+}
+
+
+.flex{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    
+}
+
+
+header{
+    height: 60vh;
+    background-image: url("../IMG/alhambra-2174177_1280.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+.column-1{
+    width: 25%;
+    float:left;
+    background-color: aliceblue;
+    
+}
+
+.column-2{
+    width: 50%;
+    float:left;
+}
+
+.column-3{
+    width:25%;
+    float:left;
+    }
+
+.col{
+    width:33.33%;
+    float:left;
+    background-color: gray;
+}
+
+
+#img-1{
+    height:50vh;
+    background-image: url("../IMG/alhambra-alhambra-spain-wallpaper-preview.webp");
+    background-size:cover;
+    background-position: center;
+     border-radius: 20;
+}
+#img-2{
+    height:50vh;
+    background-image: url("../IMG/PXL_20230328_132834673~3.jpg");
+    background-size:cover;
+    background-position: center;
+}
+#img-3{
+    height:50vh;
+    background-image: url("../IMG/la-alhambra-de-granada-477059.webp");
+    background-size:cover;
+    background-position: center;
+}
+
+#img-4{
+    height:50vh;
+    background-image: url("../IMG/Captura\ de\ pantalla\ 2024-01-31\ a\ las\ 13.35.59.png");
+    background-size:cover;
+    background-position: center;
+    
+}
+
+#img-5{
+    height:50vh;
+    background-image: url("../IMG/Captura\ de\ pantalla\ 2024-01-31\ a\ las\ 14.36.04.png");
+    background-size:cover;
+    background-position: center;
+}
+
+#mapa{
+    height:50vh;
+    background-size:cover;
+    background-position: center;
+    border-radius: 15px;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+#mapa:hover{
+    transform: scale(1.2);
+}
+
+
+
+html{
+    font-size: 16px;
+}
+
+.padding-m{
+    padding:6%;
+}
+
+.menu{
+     
+      margin: 0 5px;
+      color: #fff;
+      font-weight: bold;
+      font-size: 16px;
+      padding: 10px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+}
+
+
+li {
+    margin-bottom: 10px; 
+}
+
+article{
+    background-color: aliceblue;
+}
+.article-2{
+    background-color:antiquewhite;
+}
+
+.accordion {
+    max-width: 600px; 
+    margin: 20px auto; 
+  }
+  
+  .accordion-item {
+    background-color: #fff; 
+    margin-bottom: 10px; 
+  }
+  
+  .accordion-header {
+    background-color: #f8f9fa; 
+    padding: 15px; 
+    border-bottom: 1px solid #e9ecef; 
+    transition: background-color 0.3s ease;
+  }
+  
+  .accordion-button {
+    color: black; 
+    text-align: left;
+    width: 100%; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  .accordion-button.collapsed {
+    background-color:antiquewhite; 
+  }
+  
+  .accordion-body {
+    padding: 20px; 
+  }
+  .accordion-header:hover {
+    background-color: #e9ecef; 
+  }
+  
+  
+
+
+
